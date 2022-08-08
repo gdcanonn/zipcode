@@ -1,4 +1,4 @@
-@import '../../assets/styles/variables.scss';
+@import 'styles/variables.scss';
 
 .container {
   font-size: 1.5rem;
@@ -48,19 +48,19 @@
 }
 
 .iconSuccess {
-  background: url('../../assets/images/validations-icons.jpeg') -10px -50px;
+  background: url('images/validations-icons.jpeg') -10px -50px;
 }
 
 .iconError {
-  background: url('../../assets/images/validations-icons.jpeg') -49px -50px;
+  background: url('images/validations-icons.jpeg') -49px -50px;
 }
 
 .iconWarning {
-  background: url('../../assets/images/validations-icons.jpeg') -87px -50px;
+  background: url('images/validations-icons.jpeg') -87px -50px;
 }
 
 .iconInfo {
-  background: url('../../assets/images/validations-icons.jpeg') -126px -10px;
+  background: url('images/validations-icons.jpeg') -126px -10px;
 }
 
 .inputSuccessMsg {
