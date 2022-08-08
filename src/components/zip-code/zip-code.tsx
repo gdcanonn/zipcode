@@ -1,6 +1,6 @@
 import styles from './zipcode.module.scss'
 import cx from 'classnames'
-import { ErrorType, Message } from '../../utils/@types'
+import { ErrorType, Message } from 'utils/@types'
 import { ChangeEvent } from 'react'
 
 interface ZipCodeProps {

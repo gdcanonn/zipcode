@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react"
-import ZipCodeService from "../../services/zipcode";
-import { ErrorType, Message, ZipCode as ZipCodeType } from "../../utils/@types";
-import { Constants } from "../../utils/constants";
+import ZipCodeService from "services/zipcode";
+import { ErrorType, Message, ZipCode as ZipCodeType } from "utils/@types";
+import { Constants } from "utils/constants";
 import ZipCode from "./zip-code";
 
 interface ZipCodeContainerProps {

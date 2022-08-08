@@ -1,4 +1,4 @@
-import { ZipCode } from '../utils/@types';
+import { ZipCode } from 'utils/@types';
 import api from './api';
 
 export default class ZipCodeService {

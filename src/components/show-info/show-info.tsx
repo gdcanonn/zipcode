@@ -1,4 +1,4 @@
-import { ZipCode } from "../../utils/@types";
+import { ZipCode } from "utils/@types";
 
 const ShowInfo = ({ ...props }: ZipCode) => {
   return <p>

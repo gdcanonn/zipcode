@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import ShowInfo from '../show-info/show-info'
-import ZipCodeContainer from '../zip-code/zip-code-container'
-import { ZipCode } from '../../utils/@types'
+import { ZipCode } from 'utils/@types'
 import styles from './app.module.scss'
+import ShowInfo from 'components/show-info/show-info'
+import ZipCodeContainer from 'components/zip-code/zip-code-container'
 
 function App() {
   const [zipCodeInfo, setZipCodeInfo] = useState<ZipCode | undefined>()

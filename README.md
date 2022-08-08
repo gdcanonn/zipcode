@@ -24,6 +24,9 @@ To run the project execute
 > `npm start`
 > 
 
+## Demo
+
+See demo [here](https://codesandbox.io/s/fancy-water-9eyvmd)
 
 ## Learn More
 
