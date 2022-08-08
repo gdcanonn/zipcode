@@ -1,0 +1,29 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: $brand-color;
+
+  & main {
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 700px;
+  }
+}
+
+.header {
+  text-align: center;
+
+  & h1 {
+    margin: 2rem 0;
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: $brand-color;
+  color: white;
+}

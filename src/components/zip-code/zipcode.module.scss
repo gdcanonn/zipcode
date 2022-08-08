@@ -1,0 +1,96 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & label {
+    font-weight: bold;
+  }
+}
+
+.containerInput {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgba(0, 0, 0, .4);
+  outline: none;
+  color: rgba(0, 0, 0, .7);
+  flex-grow: 1;
+
+  &::placeholder {
+    opacity: .5;
+  }
+}
+
+.messageIcon {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  transform: translate(-15px, 0px);
+  background-size: 165px 91px !important;
+  background-repeat: repeat-x !important;
+  border-radius: 50%;
+}
+
+.iconSuccess {
+  background: url('../../assets/images/validations-icons.jpeg') -10px -50px;
+}
+
+.iconError {
+  background: url('../../assets/images/validations-icons.jpeg') -49px -50px;
+}
+
+.iconWarning {
+  background: url('../../assets/images/validations-icons.jpeg') -87px -50px;
+}
+
+.iconInfo {
+  background: url('../../assets/images/validations-icons.jpeg') -126px -10px;
+}
+
+.inputSuccessMsg {
+  border-color: $success-color;
+}
+
+.inputErrorMsg {
+  border-color: $error-color;
+}
+
+.inputWarningMsg {
+  border-color: $warning-color;
+}
+
+.inputInfoMsg {
+  border-color: $info-color;
+}
+
+.labelSuccessMsg {
+  color: $success-color;
+}
+
+.labelErrorMsg {
+  color: $error-color;
+}
+
+.labelWarningMsg {
+  color: $warning-color;
+}
+
+.labelInfoMsg {
+  color: $info-color;
+}
